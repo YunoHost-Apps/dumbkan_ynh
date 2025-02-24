@@ -30,7 +30,7 @@ A lightweight, mobile-friendly Kanban board application for managing tasks and p
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://www.dumbware.io/>
-- Depot kode aplikasi hulu: <https://github.com/DumbWareio/DumbPad>
+- Depot kode aplikasi hulu: <https://github.com/DumbWareio/DumbKan>
 - Gudang YunoHost: <https://apps.yunohost.org/app/dumbkan>
 - Laporkan bug: <https://github.com/YunoHost-Apps/dumbkan_ynh/issues>
 

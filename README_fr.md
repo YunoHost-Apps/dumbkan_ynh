@@ -30,7 +30,7 @@ Une application de tableau Kanban légère et mobile pour la gestion des tâches
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://www.dumbware.io/>
-- Dépôt de code officiel de l’app : <https://github.com/DumbWareio/DumbPad>
+- Dépôt de code officiel de l’app : <https://github.com/DumbWareio/DumbKan>
 - YunoHost Store : <https://apps.yunohost.org/app/dumbkan>
 - Signaler un bug : <https://github.com/YunoHost-Apps/dumbkan_ynh/issues>
 
