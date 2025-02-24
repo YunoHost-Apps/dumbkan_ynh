@@ -1,5 +1,5 @@
 [Unit]
-Description=DumbDo: todo list
+Description=DumbKan: kanban
 After=network.target
 
 [Service]

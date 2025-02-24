@@ -3,57 +3,47 @@ Nota bene : ce README est automatiquement généré par <https://github.com/Yu
 Il NE doit PAS être modifié à la main.
 -->
 
-# DumbPad pour YunoHost
+# DumbKan pour YunoHost
 
-[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/dumbpad)](https://ci-apps.yunohost.org/ci/apps/dumbpad/)
-![Statut du fonctionnement](https://apps.yunohost.org/badge/state/dumbpad)
-![Statut de maintenance](https://apps.yunohost.org/badge/maintained/dumbpad)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/dumbkan)](https://ci-apps.yunohost.org/ci/apps/dumbkan/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/dumbkan)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/dumbkan)
 
-[![Installer DumbPad avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dumbpad)
+[![Installer DumbKan avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dumbkan)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
-> *Ce package vous permet d’installer DumbPad rapidement et simplement sur un serveur YunoHost.*  
+> *Ce package vous permet d’installer DumbKan rapidement et simplement sur un serveur YunoHost.*  
 > *Si vous n’avez pas YunoHost, consultez [ce guide](https://yunohost.org/install) pour savoir comment l’installer et en profiter.*
 
 ## Vue d’ensemble
 
-Une application de bloc-notes moderne, simple, sans authentification (sauf si vous le souhaitez !), avec fonctionnalité d'enregistrement automatique et prise en charge du mode sombre.
+Une application de tableau Kanban légère et mobile pour la gestion des tâches et des projets. Construite avec vanilla JavaScript et Node.js.
 
-### Caractéristiques
-
-- Interface simple et propre
-- Sauvegarde automatique
-- Support du mode sombre
-- Design réactif
-- Protection par code PIN en option (4 à 10 chiffres)
-- Stockage sur fichier
-- Persistance des données entre les mises à jour
-    
 
 **Version incluse :** 1.0.0~ynh1
 
 ## Captures d’écran
 
-![Capture d’écran de DumbPad](./doc/screenshots/screenshot.png)
+![Capture d’écran de DumbKan](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://www.dumbware.io/>
 - Dépôt de code officiel de l’app : <https://github.com/DumbWareio/DumbPad>
-- YunoHost Store : <https://apps.yunohost.org/app/dumbpad>
-- Signaler un bug : <https://github.com/YunoHost-Apps/dumbpad_ynh/issues>
+- YunoHost Store : <https://apps.yunohost.org/app/dumbkan>
+- Signaler un bug : <https://github.com/YunoHost-Apps/dumbkan_ynh/issues>
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/dumbkan_ynh/tree/testing).
 
 Pour essayer la branche `testing`, procédez comme suit :
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/dumbkan_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade dumbpad -u https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing --debug
+sudo yunohost app upgrade dumbkan -u https://github.com/YunoHost-Apps/dumbkan_ynh/tree/testing --debug
 ```
 
 **Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
