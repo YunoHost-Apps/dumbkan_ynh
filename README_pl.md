@@ -30,7 +30,7 @@ A lightweight, mobile-friendly Kanban board application for managing tasks and p
 ## Dokumentacja i zasoby
 
 - Oficjalna strona aplikacji: <https://www.dumbware.io/>
-- Repozytorium z kodem źródłowym: <https://github.com/DumbWareio/DumbPad>
+- Repozytorium z kodem źródłowym: <https://github.com/DumbWareio/DumbKan>
 - Sklep YunoHost: <https://apps.yunohost.org/app/dumbkan>
 - Zgłaszanie błędów: <https://github.com/YunoHost-Apps/dumbkan_ynh/issues>
 
