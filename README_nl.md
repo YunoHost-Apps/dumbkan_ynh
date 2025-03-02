@@ -21,7 +21,7 @@ Hij mag NIET handmatig aangepast worden.
 A lightweight, mobile-friendly Kanban board application for managing tasks and projects. Built with vanilla JavaScript and Node.js.
 
 
-**Geleverde versie:** 1.0.0~ynh1
+**Geleverde versie:** 1.0.0~ynh2
 
 ## Schermafdrukken
 

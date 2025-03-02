@@ -21,7 +21,7 @@ No se debe editar a mano.
 A lightweight, mobile-friendly Kanban board application for managing tasks and projects. Built with vanilla JavaScript and Node.js.
 
 
-**Versión actual:** 1.0.0~ynh1
+**Versión actual:** 1.0.0~ynh2
 
 ## Capturas
 

@@ -21,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Une application de tableau Kanban légère et mobile pour la gestion des tâches et des projets. Construite avec vanilla JavaScript et Node.js.
 
 
-**Version incluse :** 1.0.0~ynh1
+**Version incluse :** 1.0.0~ynh2
 
 ## Captures d’écran
 
