@@ -7,13 +7,14 @@ name = "DumbKan"
 description.en = "Dumb Kanban"
 description.fr = "Kanban simple"
 
-version = "2025.03.04~ynh1"
+version = "2025.03.04~ynh2"
 
 maintainers = ["eric_G"]
 
 [upstream]
 license = "GPL-3.0"
 website = "https://www.dumbware.io/"
+admindoc = "https://www.dumbware.io/DumbKan"
 code = "https://github.com/DumbWareio/DumbKan"
 fund = "https://buymeacoffee.com/dumbware"
 
