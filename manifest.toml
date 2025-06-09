@@ -7,7 +7,7 @@ name = "DumbKan"
 description.en = "Dumb Kanban"
 description.fr = "Kanban simple"
 
-version = "2025.03.04~ynh2"
+version = "2025.06.04~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -49,8 +49,8 @@ ram.runtime = "70M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbKan/archive/5e009d5c2543a8a24cef134487d36d4b390ab943.tar.gz"
-    sha256 = "dd29b611b7c3d77237e2fc29ef7473b424cd5ef3690e24f17402f8d203523dc3"
+    url = "https://github.com/DumbWareio/DumbKan/archive/9b10cf1a8eaa505552d3c4c52b03ba0f5e535fc6.tar.gz"
+    sha256 = "0814f3fb73c2b4f7101660c8d80757e63c705289bba99ab2a421a81c84f6fc18"
     autoupdate.upstream = "https://github.com/DumbWareio/DumbKan"
     autoupdate.strategy = "latest_github_commit"
 
