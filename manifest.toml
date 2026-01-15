@@ -19,7 +19,7 @@ code = "https://github.com/DumbWareio/DumbKan"
 fund = "https://buymeacoffee.com/dumbware"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -36,14 +36,15 @@ ram.runtime = "70M"
     [install.domain]
     type = "domain"
 
-    [install.path]
-    type = "path"
-    default = "/dumbkan"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
 
+    [install.pin]
+    ask.en = "Choose an optional PIN protection (4-10 digits)"
+    ask.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
+    type = "number"
+    
 [resources]
 
     [resources.sources]
@@ -62,3 +63,6 @@ ram.runtime = "70M"
     main.url = "/"
 
     [resources.ports]
+
+    [resources.nodejs]
+    version = "22"
