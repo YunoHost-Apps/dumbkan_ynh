@@ -11,12 +11,16 @@ It shall NOT be edited by hand.
 Dumb Kanban
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.dumbware.io/)
-[![Version: 2025.03.04~ynh2](https://img.shields.io/badge/Version-2025.03.04~ynh2-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/dumbkan/)
+[![Version: 2025.06.24~ynh1](https://img.shields.io/badge/Version-2025.06.24~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/dumbkan/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/dumbkan"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
 <a href="https://github.com/YunoHost-Apps/dumbkan_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
+
+
+## Screenshots
+![Screenshot of DumbKan](./doc/screenshots/screenshot.png)
 
 ## 📦 Developer info
 

@@ -7,7 +7,7 @@ name = "DumbKan"
 description.en = "Dumb Kanban"
 description.fr = "Kanban simple"
 
-version = "2025.03.04~ynh2"
+version = "2025.06.24~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -19,7 +19,7 @@ code = "https://github.com/DumbWareio/DumbKan"
 fund = "https://buymeacoffee.com/dumbware"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -50,8 +50,8 @@ ram.runtime = "70M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbKan/archive/5e009d5c2543a8a24cef134487d36d4b390ab943.tar.gz"
-    sha256 = "dd29b611b7c3d77237e2fc29ef7473b424cd5ef3690e24f17402f8d203523dc3"
+    url = "https://github.com/DumbWareio/DumbKan/archive/a1dc943e6b259fc0cccd1456233268ca9f40122a.tar.gz"
+    sha256 = "1ce920229dcfaa091d54c1e9d11b76087805fa11b05f07004406d653d5039454"
     autoupdate.upstream = "https://github.com/DumbWareio/DumbKan"
     autoupdate.strategy = "latest_github_commit"
 
@@ -63,3 +63,6 @@ ram.runtime = "70M"
     main.url = "/"
 
     [resources.ports]
+
+    [resources.nodejs]
+    version = "22"
