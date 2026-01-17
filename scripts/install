@@ -23,13 +23,6 @@ if [[ ${#pin} -lt 4 ]] || [[ ${#pin} -gt 10 ]]; then
 fi
 
 #=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Installing dependencies..."
-
-ynh_nodejs_install
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
@@ -71,7 +64,7 @@ popd
 ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-ynh_systemctl --service="$app" --action="start" --log_path="systemd"
+ynh_systemctl --service="$app" --action="start"
 
 #=================================================
 # END OF SCRIPT
